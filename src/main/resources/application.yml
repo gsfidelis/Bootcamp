@@ -8,13 +8,13 @@ server:
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/postgres
-    username: postgres
-    password: 123456
+    url: postgres://vvspgdoctrieir:257505e57eeb1e7f91d2ad9d7d1e1517d4a59ca3fc30e5f1aa378b4923d9d7f4@ec2-18-214-195-34.compute-1.amazonaws.com:5432/de4kjleknsg4vr
+    username: vvspgdoctrieir
+    password: 257505e57eeb1e7f91d2ad9d7d1e1517d4a59ca3fc30e5f1aa378b4923d9d7f4
   jpa:
     show-sql: true
     database-platform: org.hibernate.dialect.PostgreSQLDialect
-    generate-ddl: false
+    generate-ddl: true
     hibernate:
       ddl-auto: none
 
